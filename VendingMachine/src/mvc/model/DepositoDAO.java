@@ -16,7 +16,7 @@ public class DepositoDAO {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			connection = DriverManager.getConnection(
-					"jdbc:mysql://localhost/vending_machine?useTimezone=true&serverTimezone=UTC", "root", "Elikevin1");
+					"jdbc:mysql://localhost/vending_machine?useTimezone=true&serverTimezone=UTC", "root", "senha");
 		} catch (ClassNotFoundException | SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
