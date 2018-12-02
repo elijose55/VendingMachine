@@ -1,0 +1,8 @@
+create database vending_machine;
+
+use vending_machine;
+
+create table Deposito(id bigint not null auto_increment, nome varchar(255), quantidade int, vendas int, preco int, primary key(id));
+
+
+create table sugestao(id bigint not null auto_increment, nome varchar(255), primary key(id));
